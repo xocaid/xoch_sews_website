@@ -34,13 +34,12 @@ body {
   background-color: var(--blackcherry);
   padding: 15px;
   border-radius: 5px;
-  border: 2px solid var(--burntpeach);
   margin-bottom:15px;
   height: 100%;
 }
 
 .inner-box {
-  background-color: rgb(222, 124, 90, .5);
+  background-color: rgb(222, 124, 90, .3);
   padding: 25px;
   border-radius: 5px;
   height:100%;

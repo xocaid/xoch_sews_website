@@ -12,7 +12,7 @@ export default function Navigation_Bar() {
                         <Nav.Link as={Link} href="/">Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} href='/wishlist'>Wishlist</Nav.Link>
+                        <Nav.Link as={Link} href='/wishlist'>Quilty Interests</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Container>

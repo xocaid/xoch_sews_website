@@ -4,19 +4,26 @@ import { Row, Col } from "react-bootstrap";
 export default function Wishlist() {
     return (
         <Container>
-            <h1>Wishlist</h1>
+            <h1>Quilty Interests</h1>
+            <div className="box">
+
+                <p>
+                    Here you'll find some of my sewing and quilting likes and interests.
+                    Friends and family are constantly asking what I want or need, so here is a quick and easy cheat sheet.
+                </p>
+            </div>
+
             <Row className="mb-3">
                 <Col md={6}>
 
-                    <div className="box">
-                        <div className="inner-box">
+                    <div className="box ">
+                        <div className="inner-box ">
                             <h2>Favorite Quilt Stores</h2>
                             <ul>
+                                <li><a href='https://www.quiltingforcommunity.org/'>Quilting for Community</a></li>
                                 <li><a href='https://sewingarts.com/'>Sewing Arts</a></li>
                                 <li><a href='https://www.quiltillion.com/'>Quiltillion</a></li>
-                                <li><a href='https://www.quiltemporium.com/'>Quilt Emporium</a></li>
                                 <li><a href='https://www.orangequiltbee.com/'>Orange Quilt Bee</a></li>
-                                <li><a href='https://www.quiltypleasuressimivalley.com/'>Quilty Pleasure</a></li>
                                 <li><a href='https://www.trishtacsew.com/'>Trish Tac Sew</a></li>
                             </ul>
                         </div>
@@ -27,16 +34,14 @@ export default function Wishlist() {
                 <Col md={6}>
                     <div className="box">
                         <div className="inner-box">
-                            <h2>Favorite Designers</h2>
+                            <h2>Favorite Pattern Designers</h2>
                             <ul>
-                                <li><a href='https://prideandjoyquilting.com/'>Pride & Joy Quilting</a></li>
+                                <li><a href='https://prideandjoyquilting.com/'>Veruschka Zarate</a></li>
                                 <li><a href='https://elizabethhartman.com/'>Elizabeth Hartman</a></li>
-                                <li><a href='https://www.quiltemporium.com/'>Alison Glass</a></li>
                                 <li><a href='https://www.latifahsaafirstudios.com/'>Latifah Saafir</a></li>
                                 <li><a href='https://www.etsy.com/shop/quiltbynightdesigns/?etsrc=sdt'>Quilt by Night</a></li>
                                 <li><a href='https://www.quiltallthethings.com/'>Melissa de Leon Mason</a></li>
-                                <li><a href='https://www.thequiltersfaire.com/'>Quilter's Faire</a></li>
-                                <li><a href='https://www.quiltingforcommunity.org/'>Quilting for Community</a></li>
+                                <li><a href='https://www.quiltemporium.com/'>Alison Glass</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,7 +52,7 @@ export default function Wishlist() {
                 <Col>
                     <div className="box">
                         <div className="inner-box">
-                            <h3>Wishlist</h3>
+                            <h3>My Wishlist</h3>
                             <ul>
                                 <li><a href='https://oliso.com/collections/project-irons/products/m3pro-project-iron-raspberry'>Oliso M3 Pro(Mini Iron)</a></li>
                                 <li><a href='https://sewingarts.com/products/add-a-quarter-ruler-6-inch?_pos=18&_sid=7af2c2250&_ss=r'>Add-a-Quarter-Ruler (6")</a></li>
